@@ -1,0 +1,35 @@
+{
+  "name": "functional",
+  "id": "functional",
+  "version": "0.0.1",
+  "description": "functional javascript <3",
+  "keywords": [ "functional", "utils" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/functional",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/functional.git",
+    "web": "https://github.com/Gozala/functional"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/functional/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10"
+  },
+  "dependencies": {
+    "graphquire": ">=0.6.1"
+  },
+  "main": "./functional.js",
+  "engines": {
+    "node": "0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test-functional.js",
+    "install": "graphquire --clean --write"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}

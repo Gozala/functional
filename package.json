@@ -1,7 +1,7 @@
 {
   "name": "functional",
   "id": "functional",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "functional javascript <3",
   "keywords": [ "functional", "utils" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
@@ -18,12 +18,8 @@
     "test": ">=0.0.10"
   },
   "main": "./functional.js",
-  "engines": {
-    "node": "0.4.x"
-  },
   "scripts": {
-    "test": "node tests/test-functional.js",
-    "install": "graphquire --clean --write"
+    "test": "node tests/test-functional.js"
   },
   "licenses": [{
     "type" : "MIT",

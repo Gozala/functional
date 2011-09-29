@@ -1,5 +1,9 @@
 # Changes #
 
+## 0.0.3 / 2011-09-29 ##
+
+  - Improve repl usage.
+
 ## 0.0.2 / 2011-08-16 ##
 
   - Make curry returns stateless.

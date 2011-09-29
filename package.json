@@ -1,7 +1,7 @@
 {
   "name": "functional",
   "id": "functional",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "functional javascript <3",
   "keywords": [ "functional", "utils" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",

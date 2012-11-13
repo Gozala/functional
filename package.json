@@ -1,9 +1,12 @@
 {
   "name": "functional",
   "id": "functional",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "functional javascript <3",
-  "keywords": [ "functional", "utils" ],
+  "keywords": [
+    "functional",
+    "util"
+  ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "homepage": "https://github.com/Gozala/functional",
   "repository": {
@@ -15,14 +18,19 @@
     "web": "http://github.com/Gozala/functional/issues/"
   },
   "devDependencies": {
-    "test": ">=0.0.10"
+    "test": "~0.5.2",
+    "phantomify": "~0.1.0"
   },
-  "main": "./functional.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "node tests/test-functional.js"
+    "test": "npm run test-node && npm run test-browser",
+    "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
+    "test-node": "node ./test/index.js"
   },
-  "licenses": [{
-    "type" : "MIT",
-    "url" : "http://jeditoolkit.com/LICENSE"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Gozala/functional/License.md"
+    }
+  ]
 }

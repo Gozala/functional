@@ -1,11 +1,9 @@
-# functional #
+# functional
 
-functional javascript <3
+[![Build Status](https://secure.travis-ci.org/Gozala/functional.png)](http://travis-ci.org/Gozala/functional)
 
-## Install ##
+Functional <3 for JS
+
+## Install
 
     npm install functional
-
-## Require ##
-
-    var functional = require('https!raw.github.com/Gozala/functional/v0.0.1/functional.js')

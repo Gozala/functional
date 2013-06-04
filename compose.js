@@ -10,11 +10,15 @@ function compose() {
   terms, composing the functions `f()`, `g()`, and `h()` produces
   `f(g(h()))`.
   Usage:
-  var greet = function(name) { return 'hi: ' + name }
-  var exclaim = function(statement) { return statement + '!' }
-  var welcome = compose(exclaim, greet)
-  welcome('moe')
-  // => 'hi: moe!'
+  
+  var square = function(x) { return x * x }
+  var increment = function(x) { return x + 1 }
+  
+  var f1 = compose(increment, square)
+  f1(5) // => 26
+  
+  var f2 = compose(square, increment)
+  f2(5) // => 36
   **/
 
   var lambdas = slicer.call(arguments)
